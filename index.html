@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class = "Container">
+            <div class = "Team">
+                <h1> HOME </h1>
+                <h2 id = "home_score"></h2>
+                    <div class = "button_layout">
+                        <button onclick = "addScore(0, 2)"> +2 </button>
+                        <button onclick = "addScore(0, 3)"> +3 </button>
+                    </div>
+            </div>
+        <div id = "idk">
+            <div>
+                <button class = "dec_button" onclick = "reset()"> RESET </button>
+                <button class = "dec_button" onclick = "winner()"> WINNER </button>
+            </div>
+            <p id = "winner"></p>
+        </div>
+            <div>
+                <h1> AWAY </h1>
+                <h2 id = "away_score"></h2>
+                    <div class = "button_layout">
+                        <button onclick = "addScore(1, 2)"> +2 </button>
+                        <button onclick = "addScore(1, 3)"> +3 </button>
+                    </div>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

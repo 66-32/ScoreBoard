@@ -1,0 +1,38 @@
+
+body {
+ margin: 100px;
+}
+
+.button_layout{
+    /* border: 5px solid red; */
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.Container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dec_button{
+    margin-top:  50px;
+    height: auto;
+    align-self: flex-start;
+
+    padding: 10px 20px
+}
+
+#winner{
+    font-size: 20px;
+}
+
+
+#idk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
